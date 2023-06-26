@@ -1,17 +1,17 @@
 # Напишите программу, которая получает целое число и возвращает его шестнадцатеричное строковое представление.
 # Функцию hex используйте для проверки своего результата.
 
-if __name__ == '__main__':
-    i = int(input("Введите число "))
+# if __name__ == '__main__':
+#     i = int(input("Введите число "))
 
 
-    h = (format(i, '#x'))
-    print(h)  # ('0xfff')
-print(hex(i))
-if hex(i) == h:
-    print("Задача решена верно")
-else:
-    ("Задачу надо доработать")
+#     h = (format(i, '#x'))
+#     print(h)  # ('0xfff')
+# print(hex(i))
+# if hex(i) == h:
+#     print("Задача решена верно")
+# else:
+#     ("Задачу надо доработать")
 
     # Напишите программу, которая принимает две строки
 
@@ -73,26 +73,26 @@ else:
 
 
 
-import fractions
+# import fractions
 
-# задача с дробями
+# # задача с дробями
 
-str1 = str(input('Введите дробь вида 3/4 : '))
+# str1 = str(input('Введите дробь вида 3/4 : '))
 
-str2 = str(input('Еще одну : '))
+# str2 = str(input('Еще одну : '))
 
-first = str1.split('/')
+# first = str1.split('/')
 
-second = str2.split('/')
+# second = str2.split('/')
 
-summa = str(int(first[0]) * int(second[1]) + int(first[1]) * int(second[0])) + '/' + str(int(second[1]) * int(first[1]))
+# summa = str(int(first[0]) * int(second[1]) + int(first[1]) * int(second[0])) + '/' + str(int(second[1]) * int(first[1]))
 
-mult = str( int(first[0]) * int( second[0])) + '/' + str ( int(first[1]) * int(second[1]))
+# mult = str( int(first[0]) * int( second[0])) + '/' + str ( int(first[1]) * int(second[1]))
 
-print(f'Сумма {summa}, Произведение {mult}')
+# print(f'Сумма {summa}, Произведение {mult}')
 
-f1 = fractions.Fraction(int(first[0]), int(first[1]))
+# f1 = fractions.Fraction(int(first[0]), int(first[1]))
 
-f2 = fractions.Fraction(int(second[0]), int(second[1]))
+# f2 = fractions.Fraction(int(second[0]), int(second[1]))
 
-print(f'Проверка Fractions сумма {f1+f2}, произведение {f1*f2}')
+# print(f'Проверка Fractions сумма {f1+f2}, произведение {f1*f2}')
